@@ -1,0 +1,7 @@
+## Configuracion para la conexion con MySQL
+spring.datasource.url=jdbc:mysql://mysql:3306/upn
+spring.datasource.username=upnuser
+spring.datasource.password=upnpass
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+## Configuracion de Hibernate
+spring.jpa.hibernate.ddl-auto=update
