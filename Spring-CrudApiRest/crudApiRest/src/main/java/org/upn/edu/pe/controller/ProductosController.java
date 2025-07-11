@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.upn.edu.pe.model.Productos;
 import org.upn.edu.pe.service.ProductosService;
 
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/productos")	// http://localhost:8080/api/productos
 public class ProductosController {
